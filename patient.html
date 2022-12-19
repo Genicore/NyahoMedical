@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Patient</title>
+</head>
+<body>
+    <div class="site-container">
+        <div class="sidenav">
+            <div class="top">
+                <h1 class="logo">Nyaho</h1>
+                <p>Medical Centre</p>
+                </div>
+         <hr>
+         <div class="bottom">
+             <ul>
+                 <p class="title">MAIN</p>
+                 <li><a href="index.html"><i class="icon">icon</i><span>Profile</span></a></li>
+                 <p class="title">LISTS</p>
+                 <li><i class="icon">icon</i><span>Apointment</span></li>
+                 <li><i class="icon">icon</i><span>Records</span></li>
+                 <li><a href="login.html"><i class="icon">icon</i><span>Logout</span></a></li>
+             </ul>
+         </div>
+        </div>
+         <div class="main-content">
+             <div class="navbar">
+                 <div class="wrapper">
+                     <div class="searchbox">
+                         <input type="text" name="search" placeholder="Search...">
+                         <i class="search-icon">icon</i>
+                     </div>
+                     <div class="widgets">
+                         <div>Notifications</div>
+                         <div class="dropdown">
+                            <button class="dropbtn">Admin</button>
+                            <div class="dropdown-content">
+                                <a href="#">Change Password</a>
+                                <a href="login.html">Logout</a>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+             </div>
+             <hr>
+             <div class="section">
+                 <div class="section-title">
+                     <h3>USER PROFILE</h3>
+
+                 </div>
+     
+                 <div class="section-body">
+                     <form class="form">
+                        <div class="form-control">
+                            <label for="fullname" class="input-label">Fullname:</label>
+                            <input name="fullname" id="fullname" type="text" placeholder="fullname" 
+                            class="input-control" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="dob" class="input-label">Date of Birth:</label>
+                            <input name="dob" id="dob" type="date" class="input-control" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="gender" class="input-label">Gender:</label>
+                            <div class="radio-control">
+                                <label class="radio-label">
+                                    <input  class="radio-input" name="gender" id="gender" type="radio" value="Male" required>Male
+                                </label>
+                                <label class="radio-label">
+                                    <input  class="radio-input" name="gender" id="gender" type="radio" value="Female" required>Female
+                                </label>
+                            </div>
+                            
+                           
+                        </div>
+                        <div class="form-control">
+                            <label for="mobile" class="input-label">Mobile:</label>
+                            <input name="mobile" id="mobile" type="text" placeholder="mobile" 
+                            class="input-control" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="address" class="input-label">Address:</label>
+                            <input name="address" id="address" type="text" placeholder="address" 
+                            class="input-control" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="email" class="input-label">Email:</label>
+                            <input name="email" id="email" type="email" placeholder="example@gmail.com" 
+                            class="input-control" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="city" class="input-label">City:</label>
+                            <input name="city" id="city" type="text" placeholder="city" 
+                            class="input-control" required>
+                        </div>
+
+                        <div class="input-control">
+                           <button type="submit" class="btn-submit">UPDATE</button>
+                        </div>
+
+                     </form>
+                 </div>
+     
+             </div>
+         </div>
+        </div>
+</body>
+</html>
